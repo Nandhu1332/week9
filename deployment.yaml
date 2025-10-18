@@ -5,7 +5,7 @@ metadata:
 spec: 
   replicas: 4
   selector:
-    matchLables:
+    matchLabels:
       app: kubedemoapp
   template:
     metadata:
@@ -18,3 +18,4 @@ spec:
           ports:
 
             - containerPort: 5000
+
